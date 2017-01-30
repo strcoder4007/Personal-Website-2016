@@ -9,16 +9,6 @@ $(document).ready(function() {
     ga('create', 'UA-89254437-2', 'auto');
     ga('send', 'pageview');
 
-
-
-     $('.progress .progress-bar').css("width",
-               function() {
-                   return $(this).attr("aria-valuenow") + "%";
-               }
-       )
-
-
-
           $('a[href*="#"]:not([href="#"])').click(function() {
          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
            var target = $(this.hash);

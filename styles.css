@@ -99,6 +99,14 @@ a:hover {
     font-size: 3vh;
 }
 
+.floater{
+    padding:3% 3% 0% 3%;
+}
+
+
+
+
+
 .fa {
     font-size: 2vh;
 }
@@ -140,41 +148,12 @@ i:hover{
   text-align: center;
 }
 
-#floater {
-    padding-left:15%;
-    padding-top: 10%;
-}
-.progress {
-  height: 4vh;
-  width: 30vw;
-  border-radius: 0px;
-}
-.progress .skill {
-  font: normal 2vh "Fira Sans";
-  line-height: 4vh;
-  margin-left: 0.5vw;
-  text-transform: uppercase;
-}
-.progress .skill .val {
-  float: right;
-  font-size: 2vh;
-  font-style: normal;
-  margin: 0 1vw 0 0;
-}
-
-.progress-bar {
-  text-align: left;
-  transition-duration: 2s;
-  background-color: #B7A17B;
-  border-radius: 0px;
-}
-
 #mygrid:hover{
     opacity:0.3;
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
