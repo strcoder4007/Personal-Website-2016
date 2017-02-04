@@ -152,7 +152,11 @@ i:hover{
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 7px;
+}
+
+body {
+    overflow-x:hidden;
 }
 
 ::-webkit-scrollbar-track {
